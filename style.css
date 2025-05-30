@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,235;1,235&display=swap');
 
 body {
-    font-family: 'Lora', Arial, sans-serif;
+    font-family: 'Roboto Mono', Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333; /* Dark grey text */
+    color: #4f4f4f; /* Dark grey text */
 }
 
 header {
-    background: #3E2723; /* Darker brown */
-    color: white;
+    background: #000dff; /* Darker brown */
+    color: rgb(110, 149, 216);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -33,14 +33,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black; /* Black links */
+    color: rgb(0, 0, 0); 
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #6D4C41; /* Darker hover color */
+    background-color: #000000; /* Darker hover color */
     color: #fff;
 }
 
