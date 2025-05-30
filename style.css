@@ -6,11 +6,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #4f4f4f; /* Dark grey text */
+    color: #a2c6e4;
 }
 
 header {
-    background: #000dff; /* Darker brown */
+    background: #aaabc5; 
     color: rgb(110, 149, 216);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@ h1 {
 nav ul {
     list-style: none;
     padding: 0;
-    background: #4E342E; /* Darker brown */
+    background: #648bda; 
     margin: 0;
 }
 
@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #000000; /* Darker hover color */
+    background-color: #000000; 
     color: #fff;
 }
 
@@ -52,7 +52,7 @@ section {
 }
 
 footer {
-    background: #3E2723; /* Darker brown */
+    background: #648bda; 
     color: white;
     padding: 10px;
     position: fixed;
