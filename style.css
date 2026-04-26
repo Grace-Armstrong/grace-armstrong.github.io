@@ -64,6 +64,21 @@ section:first-of-type{
     text-align:left;
 }
 
+.intro-grid{
+    display:grid;
+    grid-template-columns: 1fr 260px;
+    gap:24px;
+    align-items:center;
+}
+
+.intro-photo img{
+    width:100%;
+    display:block;
+    border-radius:18px;
+    box-shadow: 0 18px 40px rgba(11,18,32,0.15);
+    object-fit:cover;
+}
+
 section h2{ margin-top:0; font-size:1.75rem; color:var(--accent) }
 section p{ color:var(--muted); line-height:1.6 }
 
